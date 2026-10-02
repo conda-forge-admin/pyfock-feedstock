@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.2"
+  version: "0.2.3"
 
 package:
   name: pyfock
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyfock/pyfock-${{ version }}.tar.gz
-  sha256: cf022839e88f6d931f8f6d7eb50a811aa61cbd8c32f4318bdeb3756053d016ad
+  sha256: d5655ea20da6598eb45898f9e025e7d5de0fb9c2f3133b08c4c5ba0ab95dcaef
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
     - pip
     - setuptools
   run:
-    - python >=${{ python_min }} 
+    - python >=${{ python_min }}
     - numba >=0.57.0rc1
     - numexpr >=2.7.3
     - joblib >=1.2.0
