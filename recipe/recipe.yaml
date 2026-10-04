@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.3"
+  version: "0.2.4"
 
 package:
   name: pyfock
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyfock/pyfock-${{ version }}.tar.gz
-  sha256: d5655ea20da6598eb45898f9e025e7d5de0fb9c2f3133b08c4c5ba0ab95dcaef
+  sha256: a60c1157e690cd564588805386be1f78793aef3f98e0702a162732f110c44efb
 
 build:
   number: 0
